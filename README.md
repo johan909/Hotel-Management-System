@@ -1,15 +1,18 @@
 # Hotel-Management-System
+
 Overview
-The Hotel Management System (HMS) is a Python-based application designed to automate and simplify the management of hotel operations. This system uses a database to store and manage customer information, room reservations, and billing. It provides a user-friendly interface to both hotel staff and administrators, enabling them to perform tasks such as booking rooms, checking in/out guests, managing room availability, and generating reports.
+The Hotel Management System (HMS) is a Java-based application designed to streamline and automate the management of hotel operations. This system uses a relational database to store and manage customer information, room reservations, check-ins/outs, and billing details. It offers a simple yet powerful interface for hotel staff and administrators to manage rooms, guest reservations, and generate reports efficiently.
 
 Features
-Room Reservation: Allows customers to book rooms based on availability, with options for different room types.
-Check-In/Check-Out: Facilitates guest check-ins and check-outs, updating room status in the system.
-Customer Management: Manages customer profiles, including personal details and reservation history.
-Billing System: Generates invoices and bills based on room charges, extra services, and taxes.
-Room Availability: Displays available rooms and their details (e.g., room type, price).
-Reports: Generates reports related to bookings, revenue, and occupancy rates.
+Room Reservation: Enables customers to book available rooms with options for different room types.
+Check-In/Check-Out: Facilitates guest check-ins and check-outs, updating room availability in real time.
+Customer Management: Maintains customer profiles, including personal details, contact information, and reservation history.
+Billing System: Calculates and generates bills based on room charges, additional services, and applicable taxes.
+Room Availability: Displays a list of available rooms and their details such as type, price, and amenities.
+Reports: Generates various reports, including booking summaries, revenue statistics, and occupancy rates.
 Technologies Used
-Python: The core programming language used to develop the system.
-Database: SQLite (or any relational database like MySQL/PostgreSQL) to store hotel data, including rooms, reservations, and customer details.
-Tkinter: (Optional) Used for building the graphical user interface (GUI).
+Java: The primary programming language used to develop the system.
+Database: MySQL (or any relational database like PostgreSQL or SQLite) for storing hotel data, including room details, customer information, and reservations.
+JDBC (Java Database Connectivity): Used to interact with the database and perform CRUD operations (Create, Read, Update, Delete).
+Swing : Java Swing can be used for creating a graphical user interface (GUI) for better user interaction.
+SQL: Used for querying and managing data in the database.
